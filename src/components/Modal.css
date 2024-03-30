@@ -1,0 +1,68 @@
+.box{
+    min-height: 250px;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    position: relative;
+    z-index:50 ;
+    flex-direction: column;
+    
+}
+
+.cross-icon{
+margin: 10px;
+font-size: 25px;
+cursor: pointer;
+align-self: self-end;
+}
+
+.blur{
+  backdrop-filter: blur(5px);
+  height:100vh;
+  width:100vw;
+  position: absolute;
+  top: 0;
+  z-index: 40;
+}
+
+
+.details{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+
+}
+
+Form{
+  height: 80%;
+  width: 60%;
+  margin: auto;
+
+}
+
+Form input{
+  padding: 10px;
+  border: 2px solid black;
+
+}
+.err{
+  color: red;
+  font-weight:500 ;
+  
+}
+
+.btn{
+  background-color:rgb(215, 143, 8) ;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid black;
+  cursor: pointer;
+  height: 7vh;
+  width: 20vw;
+  padding: 4px;
+  margin-top: 10px;
+  align-self: self-end;
+}
